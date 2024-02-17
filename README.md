@@ -13,8 +13,10 @@ Welcome to our Image Editing Platform! Crafted with PHP Laravel framework, Boots
 
 1. **Clone the Repository:** Run `git clone https://github.com/munthir100/image-editing-platform.git`
 2. **Install Dependencies:** Execute `composer install`
-3. **Run Locally:** Open the project path in your terminal and run `php artisan serve`
-4. **Open in Browser:** Visit `localhost:8000` in your browser
+3. **Copy Environment File:** Run `cp .env.example .env`
+4. **Generate Application Key:** Execute `php artisan key:generate`
+5. **Run Locally:** Open the project path in your terminal and run `php artisan serve`
+6. **Open in Browser:** Visit `localhost:8000` in your browser
 
 Explore the possibilities and make your images stand out with our Image Editing Platform!
 
